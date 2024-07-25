@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:darkgray;
+    color:white;
+    background-size:sticky;
+    margin:0px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("images/amazon3.png");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.nav-search{
+    display:flex;
+    background-color:pink;
+    height:40px;
+    width:620px;
+    border-radius:4px;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color:goldenrod;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:#0f1111;
+}
+.nav-search:hover{
+    border:2px solid transparent;
+
+}
+span{
+    font-size:0.7rem;
+
+}
+.nav-sec{
+    font-size:0.85rem;
+    font-weight:700px;
+}
+.nav-cart i{
+    font-size:30px;
+}
+.nav-cart{
+    font-size:0.85px;
+    font-weight:700;
+    
+}
+.menu{
+    height:40px;
+    background-color:paleturquoise;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-weight:300px;
+    font-size:20px;
+    
+}
+.menu-list{
+    font-weight:300px;
+    font-size:20px;
+}
+.Category:hover{
+    border:2px solid goldenrod;
+}
+.Cat-name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:black;
+    margin-left:10px;
+    align-items:center;
+}
+.Cat-name:hover{
+    border:2px solid white;
+}
+.Cat-menu{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:black;
+    margin-left:10px;
+    align-items:center;
+}
+.Cat-list{
+    list-style-type:none;
+    font-size:20px;
+}
+ .shopping-stores h2{
+    color:black;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left:500px;
+    margin-top:10px;
+}
+.shopping-stores .right-border{
+    margin-top:10px;
+    background-color:azure;
+    float:right;
+    height:1100px;
+    width:79%;
+}
+.shopping-stores .left-border .Category{
+    background-color:grey;
+    height:1100px;
+    margin-top:10px;
+    margin-left:5px;
+    width:300px;
+    float:left;
+    color:white;
+}
+.border2{
+    border:2px solid transparent;
+}
+.border2:hover{
+    border:2px solid lightslategrey;
+}
+.column img{
+    width:50%;
+    height:200px;
+    margin-top:30px;
+    margin-left:10px;  
+}
+
+.men-top{
+    font-size:30px;
+    font-family:roboto;
+    color:goldenrod;
+    font-weight:300px;
+    margin-top:10px;
+    margin-left:10px;
+    display:block;
+}
+ .women-top{
+    font-size:30px;
+    font-family:roboto;
+    color:goldenrod;
+    font-weight:300px;
+    margin-top:20px;
+    margin-left:10px;
+    display:block;
+}
+.foot-wear{
+    font-size:30px;
+    font-family:roboto;
+    color:goldenrod;
+    font-weight:300px;
+    margin-top:30px;
+    margin-left:10px;
+    display:block;
+}
+.sports-wear{
+    font-size:30px;
+    font-family:roboto;
+    color:goldenrod;
+    font-weight:300px;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.column{
+    float:left;
+    width:20%;
+    display:inline;
+}
+.Category:hover .copyright{
+    display:block;
+}
